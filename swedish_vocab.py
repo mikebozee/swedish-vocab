@@ -25,11 +25,13 @@ with open('english_to_swedish_test.csv', 'r', newline='', encoding='utf-8') as c
             lives -= 1
             if lives == 0:
                 print("NOPE!")
+                print("CORRECT ANSWER: " + row[1])
                 print("SCORE: " + str(score))
                 print("*** GAME OVER ***")
                 break
             else:
                 print("NOPE!")
+                print("CORRECT ANSWER: " + row[1])
                 print("SCORE: " + str(score))
                 print("LIVES REMAINING: " + str(lives))
 
